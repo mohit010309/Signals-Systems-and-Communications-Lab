@@ -1,0 +1,11 @@
+N=1024;
+fs=200;
+f=1;
+n=1:N;
+x=sin((2*pi*f*n)/fs);
+w=randn(1,N);
+y=x+w;
+subplot(2,1,1);
+plot(myXCORR(x,y));
+subplot(2,1,2);
+plot(xcorr(x,y,N));

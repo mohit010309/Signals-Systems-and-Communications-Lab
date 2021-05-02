@@ -1,0 +1,5 @@
+Exp5
+Assignment 
+1)	Verify the convolution property of Fourier transform. Generate two rectangular pulse of width 10 units and find the convolution in time and frequency domain.
+2)	Verify the time shifting property of Fourier transform. Generate a rectangular pulse X(t). Find X(t-5) and X(t+5) using the time shifting property.
+3)	Verify the frequency shifting property of Fourier Transform using X(t) = cos(2*pi*15*t).
